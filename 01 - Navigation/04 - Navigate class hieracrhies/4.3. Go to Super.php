@@ -1,22 +1,19 @@
 <?php
 /**
- * Go to super class / method
- *
- * Navigate to the super class or method.
+ * 跳转到超类（基类，父类）或超方法（被覆盖的超类方法）
  *
  * Ctrl+U (Windows/Linux)
  * Command+U (Mac OS X)
  *
- * Ctrl+H Show Hierarchy tool window (Windows/Linux/Mac OS X)
+ * Ctrl+H显示继承工具栏 (Windows/Linux/Mac OS X)
  */
 namespace Navigation4\JetBrains\Customers;
 
-// 1. Place the caret on Customer and use the keyboard shortcut to navigate the hierarchy up.
+// 1. 将光标放到 Customer类的任何空地方并使用快捷键导航到上级层次结构
 class GoldCustomer extends Customer
 {
-    // 2. Place the caret on __construct and use the keyboard shortcut to navigate the hierarchy up.
-    // 3. Bring up the Hierarchy tool window and inspect the class hierarchy.
-    //    You can also navigate from the tool window.
+    // 2. 将光标放到 __construct 并使用快捷键导航到它的超方法
+    // 你也可以用继承工具栏导航过去
     /**
      * @param string $name
      */

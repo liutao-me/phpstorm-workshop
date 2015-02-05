@@ -1,8 +1,8 @@
-Recent files
+最近文件
 
-Show a list of recent files.
+显示已个最近文件的列表
 
 Ctrl+E (Windows/Linux)
 Command+E (Mac OS X)
 
-1. Filter list by typing - middle matching, wildcards and CamelHumps.
+1. 使用输入来过滤 - 中间匹配，通配符和驼峰都可以

@@ -1,28 +1,29 @@
 <?php
 /**
- * Bookmarks
+ * 书签
  *
- * Set, unset and navigate to bookmarks.
+ * 设置，移除或导航到书签
+ * 下面说的切换就是 (设置/移除)
  *
  * Windows/Linux:
- *   F11 Toggle Bookmark
- *   Ctrl+F11 Toggle Numbered Bookmark (Bookmark with Mnemonic)
- *   Shift+F11 Show bookmarks
- *   Ctrl+0..9 Navigate to numbered bookmark
+ *   F11 切换书签
+ *   Ctrl+F11 切换编号的书签 (记忆书签)
+ *   Shift+F11 显示所有的书签
+ *   Ctrl+0..9 导航到编号的书签
  *
  * Mac OS X:
- *   F3 Toggle Bookmark
- *   Alt+F3 Toggle Numbered Bookmark (Bookmark with Mnemonic)
- *   Command+F3 Show bookmarks
- *   Ctrl+0..9 Navigate to numbered bookmark
+ *   F3 切换书签
+ *   Alt+F3 切换编号的书签 (记忆书签)
+ *   Command+F3 显示所有的书签
+ *   Ctrl+0..9 导航到编号的书签
  *
- * 1. Navigate to firstFunction() (use Navigate to Symbol or Search Everywhere) and set a bookmark.
- * 2. Navigate to secondFunction() and set a bookmark.
- * 3. Navigate to thirdFunction() and set bookmark with mnemonic, assign it number 3.
- * 4. Show a list of bookmarks and navigate between them.
- * 5. Navigate to the numbered bookmark (Ctrl+3).
- * 6. Remove the bookmark from secondFunction().
- * 7. From the bookmarks list, add a description to one of the bookmarks.
+ * 1. 导航到 firstFunction() (使用标识符搜索或任意搜索) 并设置一个标签.
+ * 2. 导航到 secondFunction() 并设置一个标签.
+ * 3. 导航到 thirdFunction() 并设置一个带编号的标签，编号为3
+ * 4. 显示已个书签的列表并在他们之间导航
+ * 5. 导航到上面设置的编号的标签 (Ctrl+3)
+ * 6. 移除 secondFunction() 上的书签
+ * 7. 在书签列表上选一个标签添加一个描述
  */
 
 namespace Navigation3\JetBrains;

@@ -1,17 +1,17 @@
-Search Everywhere
+搜索任何地方
 
-Search classes, file, symbols and menu actions all at once.
+搜索类，文件，标识符，菜单动作，设置项和一些未暴露出来的操作等等
 
-Double shift (Windows/Linux/Mac OS X)
+双击 shift (Windows/Linux/Mac OS X)
 
-1. Just launching Search Everywhere will display recent files.
+1. 只是打开任意搜索况会显示最近的文件
 
-2. Navigate to the $_name protected variable in Customer.php.
+2. 导航到 Customer.php 的 protected $_name属性
 
-3. Use CamelHumps to navigate.
-   Navigate to the CustomerRepository class using CamelHumps (type "CR" or "CusR").
+3. 使用驼峰导航
+   使用驼峰导航到 CustomerRepository 类 (输入"CR"或者"CusR")
 
-4. Use middle matching to navigate.
-   Navigate to the DocumentRepository.php file by searching for "Repo".
+4. 使用中间匹配
+   搜索"Repo"导航到 DocumentRepository.php 文件
 
-5. Find the "About" action and invoke it.
+5. 找到"About"操作并触发它.

@@ -1,23 +1,23 @@
-Navigate to Class
+导航到类
 
-Navigate to a class by (partial) class name.
+通过类名(部分类名)导航到类
 
 Ctrl+N (Windows/Linux)
 Command+O (Mac OS X)
 
-1. Navigate to class.
-   Navigate to the Customer class. Open the file by hitting enter.
+1. 导航到类.
+   导航到类Customer. 敲击Enter键打开文件。
 
-2. Use CamelHumps to navigate.
-   Navigate to the CustomerRepository class using CamelHumps (type "CR" or "CusR").
+2. 使用驼峰导航.
+   使用导航到CustomerRepository类 (输入 "CR" 或者 "CusR").
 
-3. Use middle matching to navigate.
-   Navigate to the DocumentRepository class by searching for "Repo".
+3. 使用中间匹配导航.
+   使用 "Repo" 搜索导航到 DocumentRepository类
 
-4. Use wildcards.
-   Navigate to the SettingsRepository by searching for "S*Repo".
+4. 使用通配符.
+   使用 "S*Repo" 搜索导航到 SettingsRepository类
 
-5. Filter to only check PHP files by clicking the filter icon.
+5. 点击过滤图标选择只检查PHP文件
 
-6. Include non-project classes.
-   Check the "Include non-project classes" checkbox and navigate to ArrayObject (PHP SPL library).
+6. 包含非项目的类.
+   勾选"Include non-project classes"并导航到 ArrayObject (PHP标准库类)

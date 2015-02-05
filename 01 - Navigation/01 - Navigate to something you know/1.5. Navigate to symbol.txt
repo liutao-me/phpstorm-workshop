@@ -1,17 +1,18 @@
-Navigate to Symbol
+导航到标识符
 
-Navigate to a symbol by (partial) symbol name.
+通过标识符名（部分）导航到标识符
 
 Ctrl+Alt+Shift+N (Windows/Linux)
 Alt+Command+O (Mac OS X)
 
-1. Navigate to symbol.
+1. 导航到标识符
    Navigate to the $_name protected variable in Customer.php.
+   导航到在Customer.php中声明为protected的$_name属性（输入"_name"）
 
-2. Use CamelHumps to navigate.
-   Navigate to the getName() function using CamelHumps (type "gN" or "getN").
+2. 使用驼峰导航
+   使用驼峰导航到getName()函数（输入"gN"或者"getN"）
 
-3. Note that middle matching and wildcards also work when searching symbols.
-   Example searches: "ebra" of "celebr*day" for the celebrateBirthday() function.
+3. 注意中间匹配和通配符也能搜索标识符
+   例如：输入"ebra" 或 "celebr*day"去搜索 celebrateBirthday函数。
 
-4. Filter to only search in JavaScript files and find the celebrateBirthday() function in the Customer.js file.
+4. 点击过滤图标选择只检查JavaScript文件并查找 Customer.js文件中的 celebrateBirthday() 函数

@@ -1,10 +1,10 @@
-Project Tool Window
+项目工具栏
 
-Show all files in project.
+在项目里显示所有文件
 
 Alt+1 (Windows/Linux)
 Command+1 (Mac OS X)
 
-1. Open the Project Tool Window.
-2. Using the arrow keys, navigate to \01 - Navigation\01 - Navigate to something you know\Code\license.txt.
-3. Start typing "Bar". Navigate to the next exercise.
+1. 打开项目工具栏.
+2. 使用方向键, 导航到文件 /01 - Navigation/01 - Navigate to something you know/Code/license.txt.
+3. 开始输入"Bar". 以导航到下一个练习.

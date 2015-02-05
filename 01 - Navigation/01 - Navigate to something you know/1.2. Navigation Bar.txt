@@ -1,10 +1,10 @@
-Navigation Bar
+导航条
 
-Navigate through files in project.
+在项目文件里导航.
 
 Alt+Home (Windows/Linux)
 Command+Up (Mac OS X)
 
-1. Open the Navigation Bar.
-2. Left/Right navigates path. Up/Down opens other node in path.
-3. Navigate to the next exercise.
+1. 打开导航条.
+2. 左/右导航路径. 上/下打开该目录下的其它节点.
+3. 导航到下一个练习

@@ -1,23 +1,23 @@
 <?php
 /**
- * Basic Code Completion
+ * 基本代码完成
  *
- * Basic code completion for the name of any class, method or variable.
+ * 类，方法或变量等代码的基本自动完成
  *
  * Ctrl+Space (Windows/Linux/Mac OS X)
  *
- * Ctrl+Shift+Enter to complete statement (Windows/Linux)
- * Shift+Command+Enter to complete statement (Mac OS X)
+ * Ctrl+Shift+Enter 完成声明 (Windows/Linux)
+ * Shift+Command+Enter 完成声明 (Mac OS X)
  */
 
 namespace Editing1\JetBrains;
 
 class BasicCompletion {
-    // 1. Type: $this->
-    //    Basic completion shows the code completion options for the current context.
-    //    Members of the current type are shown in bold.
-    //    Use the Basic Completion keyboard shortcut a second time to see more variants.
-    // 2. Type: $value =
+    // 1. 输入: $this->
+    //    基本完成会暂时当前上下文环境中的代码完成选项
+    //    当前类型的成员将会显示为粗体
+    //    再次按下基本完成的快捷键来显示更多的符号
+    // 2. 输入: $value =
     //    Use the Basic Completion keyboard shortcut. After the equals sign, Basic Completion shows the locally scoped
     //      Basic completion options followed by the wider scope of Basic Completion items.
     // 3. The most frequently used item is usually pre-selected e.g. $this->Age might be the most used.
@@ -30,7 +30,7 @@ class BasicCompletion {
     public function basicCompletion() {
         // $this->
 
-        // $value =
+         $value =
 
         // if (true
 

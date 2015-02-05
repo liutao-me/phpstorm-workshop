@@ -1,20 +1,20 @@
-Navigate to File
+导航到文件
 
-Navigate to a file by (partial) file name.
+使用文件名（部分文件名）导航到文件
 
 Ctrl+Shift+N (Windows/Linux)
 Shift+Command+O (Mac OS X)
 
-1. Navigate to file.
-   Navigate to the Customer.php file. Open the file by hitting enter.
+1. 导航到文件.
+   导航到文件 Customer.php . 敲击回车打开文件（光标并未跟随）
 
-2. Use CamelHumps to navigate.
-   Navigate to the CustomerRepository.php file using CamelHumps (type "CR" or "CusR").
+2. 使用驼峰导航.
+   使用驼峰导航到文件CustomerRepository.php(输入"CR" 或 "CusR")
 
-3. Use middle matching to navigate.
-   Navigate to the DocumentRepository.php file by searching for "Repo".
+3. 使用中间匹配
+   搜索"Repo"导航到 DocumentRepository.php
 
-4. Use wildcards.
-   Navigate to the license.txt file by searching for "l*.txt".
+4. 使用通配符
+   搜索"l*.txt"导航到license.txt
 
-5. Filter to only check JavaScript files by clicking the filter icon. Search for Customer.js.
+5. 点击过滤图标选择只检查JavaScript文件，搜索Customer.js
