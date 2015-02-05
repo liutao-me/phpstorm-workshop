@@ -1,8 +1,8 @@
 <?php
 /**
- * Intentions
+ * 意图
  *
- * Let the IDE figure out possible actions from context and execute them.
+ * 让IDE根据上下文找出可能的操作并执行它们
  *
  * Alt+Enter (Windows/Linux/Mac OS X)
  */
@@ -10,8 +10,8 @@
 namespace Editing5\JetBrains;
 
 class Intentions {
-    // 1. Flip '==' intention. Place the cursor over "$variable" inside the if statement and hit Alt+Enter.
-    //    We can now flip $variable == true and make it read true == $variable.
+    // 1. 翻转 '==' 意图. 将光标放在下面 if 表达式里的 $variable 上按 Alt+Enter键
+    //    现在我们可以翻转 $variable == true 使它变成 true == $variable
     public function flipIntention() {
         $variable = true;
         if ($variable == true) {
@@ -20,14 +20,14 @@ class Intentions {
         echo 'This may be throwing an Exception. Riiiight!';
     }
 
-    // 2. Create File intention. Place the caret on "nonexistingfile.php" and hit Alt+Enter.
-    //    We can now generate the file.
+    // 2. 创建文件意图。将光标放在 "nonexistingfile.php" 上并按 Alt+Enter
+    //    就可以创建该文件了。
     public function createFileIntention($items) {
         include 'nonexistingfile.php';
     }
 
-    // 3. Simplify Boolean Expression Intention. Place the caret over the last statement in the function.
-    //    Hit Alt+Enter and let the IDE simplify the statement.
+    // 3. 简化布尔表达式意图。将光标放在下面函数的最后一行
+    //    按 Alt+Enter 让IDE简化该表达式
     public function simplifyIntention() {
         $a = 0;
         $b = 1;

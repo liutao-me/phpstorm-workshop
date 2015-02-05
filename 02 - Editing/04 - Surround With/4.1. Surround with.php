@@ -1,8 +1,8 @@
 <?php
 /**
- * Surround With
+ * 环绕
  *
- * Wrap selected text with new content, e.g. try/catch or if statement.
+ * 使用新的内容（结构）包含选择的文本，比如 try/catch 或者 if 结构
  *
  * Ctrl+Alt+T (Windows/Linux)
  * Alt+Command+T (Mac OS X)
@@ -12,12 +12,12 @@
 namespace Editing4\JetBrains;
 
 class SurroundWith {
-    // 1. Wrap the statement in the following function in a try/catch block.
+    // 1. 使用 try/catch 块包含下面函数里的内容
     public function surroundWithTryCatch() {
         echo 'This may be throwing an Exception. Riiiight!';
     }
 
-    // 2. Place the caret on the $items[0] element. Hit Alt+Enter to surround with an if(empty(....)) check.
+    // 2. 将光标放在 $items[0] 元素上，按 Alt+Enter 选择 if(empty(....))
     public function division($items) {
         return $items[0] / $items[1];
     }

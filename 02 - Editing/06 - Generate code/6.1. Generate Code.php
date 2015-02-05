@@ -1,8 +1,8 @@
 <?php
 /**
- * Generate Code
+ * 生成代码
  *
- * Generate code, e.g. class members, constructor, docblock comments, fields, ...
+ * 生成代码, 例如： 类成员，构造函数，文档注释，字段，。。。
  *
  * Alt+Insert (Windows/Linux)
  * Command+N (Mac OS X)
@@ -10,13 +10,13 @@
 
 namespace Editing6\JetBrains;
 
-// 1. Place the cursor somewhere in the Person class.
-// 2. Generate the setId() method by overriding method.
-// 3. Generate a constructor.
-// 4. Generate getters and setters.
-// 5. Generate PHPDoc blocks.
-// 6. Generate the __toString method by implementing method.
-// 7. Place the caret on the _age property usage in the isTeenager() method. Use Alt+Enter to generate a private field $_age.
+// 1. 把光标放到 Person 类的某个地方
+// 2. 使用 overriding method(覆盖方法) 生成 setId()
+// 3  生成一个构造函数.
+// 4. 生成 getter 和 setter(存取器).
+// 5. 生成 PHPDoc 文档.
+// 6. 使用 implementing method(实现函数) 生成 __toString 方法
+// 7. 将光标放在 isTeenager() 方法里使用的 _age属性上面，使用 Alt+Enter生成一个 private 字段 $_age。
 class Person extends Entity {
     protected $_firstName;
     protected $_lastName;
@@ -25,7 +25,7 @@ class Person extends Entity {
         return $this->_age > 10;
     }
 
-    // here is a good place to start
+    // 这里是一个开始练习的好位置
 }
 
 class Entity {

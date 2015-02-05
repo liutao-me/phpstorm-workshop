@@ -1,8 +1,8 @@
 <?php
 /**
- * Selecting Code
+ * 选择代码
  *
- * Various ways of selecting code.
+ * 选择代码的各种方式
  *
  * Ctrl+W / Ctrl+Shift+W (Windows/Linux)
  * Alt+Up / Alt+Down (Mac OS X)
@@ -13,15 +13,15 @@ namespace Editing2\JetBrains;
 use Exception;
 
 class SelectingCode {
-    // 1. Place the caret inside the $importantValue variable and expand selection to select it.
-    //    Expand again to select complete statement without ;.
-    //    Expand again to select complete line.
-    //    Expand again to select function body.
-    //    Expand again to select entire function.
-    //    Expand again to select entire class.
-    //    Expand again to select entire namespace.
-    //    Expand again to select entire file.
-    // 2. Shrink selection to until the extendAndShrinkSelection() function is selected.
+    // 1. 将光标放到 $importantValue 中间并使用快捷键扩大它的选区
+    //    再次触发选择整个声明不带分号
+    //    再次触发选择整行
+    //    再次触发选择整个方法体
+    //    再次触发选择整个方法
+    //    再次触发选择整个类
+    //    再次触发选择整个命名空间
+    //    再次触发选择整个文件
+    // 2. 收缩选区知道 extendAndShrinkSelection() 函数被选择
     public function extendAndShrinkSelection() {
         $importantValue = 32;
         if ($importantValue > 42) {

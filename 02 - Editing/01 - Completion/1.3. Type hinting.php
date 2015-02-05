@@ -1,8 +1,8 @@
 <?php
 /**
- * Type hinting
+ * 类型暗示
  *
- * Hint PhpStorm about the types you are working with.
+ * 暗示给PhpStorm你在使用的类型。
  */
 
 namespace Editing1\JetBrains;
@@ -13,27 +13,29 @@ $people = array();
 $people[] = new Person('Maarten');
 
 foreach ($people as $person) {
-    // 1. Autocompletion on $person will not show anything about the Person class.
-    //    Type $person-> and see for yourself.
+    // 1. $person上将不会出现任何有关 Person 类的自动完成。
+    //    输入 $person-> 看一下。
 
     // $person->
 
-    // 2. We can solve this!
-    //    Find the $people = array(); and add a PHPDoc comment: /** @var $people Person[] */ - this tells PhpStorm the array contains Person objects.
+    // 2. 我们可以解决这个问题。
+    //    找到 $people = array(); 并且添加一个 PHPDoc 注释: /** @var $people Person[] */ -
+    //    这将会告诉 PHPDoc 这个数组包含 Person 的对象。
     //
-    //    Type $person-> and see for yourself that we now have autocompletion.
+    //    输入 $person-> 你将会看到现在我们有了自动完成提示。
 
     // $person->
 
-    // 3. Place the cursor on $person and hit Ctrl+Q (F1). See quick documentation about the variable.
-    // 4. Place the cursor on Person and hit Ctrl+Q (F1). See quick documentation about the type.
-    // 5. Navigate to the Person class and add PHPDoc on the class. Add several @property annotations, for example:
-    //    @property string Address Address of the person
-    //    @property string Country Person country
-    //    While these properties don't actually exist, PhpStorm parses the annotations and will provide Address and Country
-    //    when using the Person class. Try it here, by typing: $person->A
+    // 3. 将光标放到 $person 上并敲一下 Ctrl+Q(F1)。 查看这个变量的快速文档。
+    // 4. 将光标放到 Person 上并敲一下 Ctrl+Q(F1)。查看这个类型的快速文档。
+    // 5. 导航到 Person 类并在类上添加 PHPDoc。添加几个 @property 注解标签,例如:
+    //    @property string Address 这个人的地址
+    //    @property string Country 该个人的国家
+    //    虽然这些属性并不实际存在， PhpStorm 会在使用 Person 类的时候解析这些注解并提供 Address 和 Country
+    //    在这里试一下, 输入: $person->A
     //
-    //    Note PhpStorm also supports @method, @type, @property, @deprecated, @global, @name, @param, @static, @since, @link, @mixin, ...
+    //    注意 PhpStorm 也支持 @method, @type, @property, @deprecated, @global, @name, @param, @static, @since, @link, @mixin, ...
+    //    (译者著：@mixin是什么标签, @link 已经被标准废弃了)
 
     // $person->A
 }

@@ -20,31 +20,30 @@ class BasicCompletion {
     // 2. 输入: $value =
     //    Use the Basic Completion keyboard shortcut. After the equals sign, Basic Completion shows the locally scoped
     //      Basic completion options followed by the wider scope of Basic Completion items.
-    // 3. The most frequently used item is usually pre-selected e.g. $this->Age might be the most used.
-    // 4. Dismiss the window with Esc.
-    // 5. Space, tab and enter accept the choice.
-    // 6. Type: $this->r
-    //    Complete the statement using the keyboard shortcut.
-    // 7. Type: if (true
-    //    Complete the statement using the keyboard shortcut.
+    // 3. 最常用的将会被预选，比如: $this->Age
+    // 4. 使用 Esc 关闭提示窗口
+    // 5. 空格,tab和Enter将会确认选择
+    // 6. 输入: $this->r
+    //    使用快捷键完成代码
+    // 7. 输入: if (true
+    //    使用完成声明快捷键完成代码
     public function basicCompletion() {
         // $this->
 
-         $value =
+        // $value =
 
         // if (true
 
-        // 8. Place the caret right after "say". Use basic completion and select sayGoodbye().
-        //    Tab replaces the statement, enter prepends the statement.
+        // 8. 把光标放到"say"的右边。使用基本完成选择 sayGoodbye()
+        //    Tab键替换该声明，回车从前面增加声明
         $this->sayHello();
 
-        // 9. Use CamelHumps to invoke veryLongFunctionName().
-        //    Type: $this->
-        //    Use "vlfn" to find the correct function.
+        // 9. 使用驼峰调用 veryLongFunctionName()
+        //    输入: $this->
+        //    使用 "vlfn" 找到正确的函数
         // $this->
 
-        // 10. Try path completion. Include the "01 - Simple Breakpoint.php" file by placing the caret inside the quotes
-        //     and use he keyboard shortcut.
+        // 10. 尝试路径完成。将光标放在引号内，并尝试使用快捷键完成 "01 - Simple Breakpoint.php"文件
         require_once '';
     }
 
