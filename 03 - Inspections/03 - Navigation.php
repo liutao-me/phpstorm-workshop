@@ -1,15 +1,15 @@
 <?php
 /**
- * Inspections - Navigation
+ * 检查 - 导航
  *
- * Navigate back and forth between code issues.
+ * 向前或向后导航代码问题
  *
  * F2 / Shift+F2 (Windows/Linux/Mac OS X)
  */
 
 namespace Inspections3\JetBrains;
 
-// 1. Using the keyboard shortcut, navigate back and forth between issues.
+// 1. 使用键盘快捷键在各个代码问题间导航(向下好像需要修正当前的问题才能继续)
 class Navigation {
     public function errorFunction() {
         echo 'First line'

@@ -1,15 +1,16 @@
-Run Inspections
+运行检查
 
-Run an inspection profile and get results for the entire project (or scope).
+
+为整个项目（或范围）执行检查方案
 
 Ctrl+Alt+Up / Down (Windows/Linux)
 Alt+Command+Up / Down (Mac OS X)
 
 
-1. From the Code menu, hit Inspect Code...
-2. Run inspections on the whole project.
-3. Create a custom profile in which only a few inspections are enabled.
-4. Inspect the results in the tool window.
-5. Group items by severity.
-6. Use the keyboard shortcuts to navigate around.
-7. Export inspections to HTML.
+1. 从 Code 菜单选择 Inspect Code...
+2. 在这个项目上运行检查
+3. 创建一个自定义的只启用几个检查的检查配置
+4. 检查工具窗口中的结果
+5. 使用严重程度分组
+6. 使用快捷键来回导航
+7. 导出检查到HTML文件.

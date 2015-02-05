@@ -1,16 +1,16 @@
 <?php
 /**
- * Inspections - Find Issues
+ * 检查 - 查找问题
  *
- * Quick fix menu allows finding all similar issues.
+ * 快速修复菜单允许查找所有相同的问题
  */
 
 namespace Inspections6\JetBrains;
 
 class FindIssues {
-    // 1. A warning highlight should be shown in the following function (foreach over boolean?).
-    //    Use the quick fix (Alt+Enter) and run the inspection on the whole project.
-    //    See a new tool window opens and displays similar errors throughout the project.
+    // 1. 一个警告的高亮应该会显示在下面的方法中（使用布尔值foreach?）
+    //    使用快速修复(Alt+Enter)并在整个项目上运行该检查。
+    //    你将会看见一个工具栏展示了整个项目中的相同错误
     public function warningFunction() {
         $variable = true;
         foreach ($variable as $item) {
@@ -18,7 +18,7 @@ class FindIssues {
         }
     }
 
-    // 2. Dead code (unused variable). Run the inspection on Open Files.
+    // 2. 死代码 (未使用变量). 在打开的文件里执行该检查
     public function deadCodeFunction() {
         $variable = true;
     }

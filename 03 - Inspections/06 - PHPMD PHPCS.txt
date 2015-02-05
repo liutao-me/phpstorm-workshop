@@ -1,11 +1,11 @@
-Configure PHP Mess Detector or PHP Code Sniffer
+配置 PHP Mess Detector 或者 PHP Code Sniffer
 
-Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.
+将 PHP Mess Detector 或者 PHP Code Sniffer 配置为检查引擎
 
 Ctrl+Alt+S (Windows/Linux)
 Command+, (Mac OS X)
 
-1. Make sure PHP Code Sniffer is installed through PEAR. See http://pear.php.net/package/PHP_CodeSniffer.
-2. Open the project settings | php | code sniffer and configure the path to phpcs / phpcs.bat.
-3. Apply settings and open project settings | inspections. Enable PHP Code Sniffer and set he code standard to validate against.
-4. Run PHP Code Sniffer inspections on the current project.
+1. 保证 PHP Code Sniffer 已经安装。http://pear.php.net/package/PHP_CodeSniffer。
+2. 打开设置搜索 "code sniffer" （PHP下）并配置 phpcs / phpcs.bat 的路径
+3. 应用设置，进入到 inspections 设置。启用 PHP Code Sniffer 使用它的代码嗅探验证代码的规范
+4. 在当前项目运行 PHP Code Sniffer 检查

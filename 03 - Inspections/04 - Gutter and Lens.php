@@ -1,16 +1,16 @@
 <?php
 /**
- * Inspections - Gutter and Lens
+ * 检查 - 槽和透镜
  *
- * Right gutter displays error information. Use Lens mode for preview.
+ * 右边的槽显示了错误信息。使用透镜模式预览
  */
 
 namespace Inspections4\JetBrains;
 
-// 1. On the right-hand side, find the error gutter.
-// 2. Hover over the square at the top and get a summary of the code quality in the file.
-// 3. Hover over a small stripe to see the warning/error information.
-// 4. Hover over a small stripe to see lens mode (only when the code in which the issue occurs is not in viewport).
+// 1. 在右手边找到错误槽。
+// 2. 鼠标悬停在顶部的方块上将会得到当前文件代码质量的概览。
+// 3. 悬停在一个小条纹上会看到警告或错误信息（错误代码行在可视范围）。
+// 4. 悬停在一个小条纹上使用透镜模式(只有当错误代码行不在可视范围内时)
 class Navigation {
     public function errorFunction() {
         echo 'First line'
