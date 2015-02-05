@@ -1,27 +1,26 @@
 <?php
 /**
- * Creating Live Templates
+ * 创建代码活动模板
  */
 
 namespace LiveTemplates2\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
-   Name the live template "cls".
+1. 打开 IDE 设置，Live Templates 并添加一个新的代码活动模板。命名为 "cls"
 
-   Set the template text to:
+   模板的内容为:
 
 class $CLASS_NAME$ {
     $END$
 }
 
-   Set the context for the live template to be available in PHP.
-   Reformat according to style should be enabled.
-   Save the live template.
+   设置执行环境为 PHP。
+   启用 Reformat according to style （根据风格格式化代码）
+   保存该模板
 
-2. Test the newly created live template using "cls".
-   The $CLASS_NAME$ variable is a hotspot.
-   The $END$ variable is a special marker telling the IDE where to locate the cursor after expanding the template.
+2. 使用 "cls" 测试我们新创建的代码活动模板
+   这个 $CLASS_NAME$ 变量是一个热点。
+   这个 $END$ 变量是一个特别的标记，是用来告诉 IDE 在扩展玩模板后将光标停在何处
 */
 
 // cls <TAB>
