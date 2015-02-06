@@ -1,7 +1,8 @@
 <?php
 /**
- * Refactor This
+ * 重构
  *
+ * 在项目视图，结构工具栏，编辑区和UML
  * Refactor symbol or code fragment in Project View, Structure Tool Window, Editor or UML Class Diagram.
  *
  * Ctrl+Shift+Alt+T (Windows/Linux)

@@ -1,12 +1,12 @@
-Create a file template.
+创建文件模板
 
-These are applied when creating a new file or generating code. Can contain includes. Customize code generation.
+它们会在创建一个新文件或生成代码时生效。可以自定义代码生成，也可包含
 
-1. Open the IDE settings and navigate to IDE Settings | File and Code Templates.
-2. Under includes, edit the PHP File Header include so that it matches your preference. Save the changes.
-3. Create a new file in the current folder. Alt+Insert (Command+N) and generate a new PHP class in the current folder.
-   The header for this file should reflect the chanegs we just made.
-4. Create a new file template for creating Smarty pages:
+1. 打开 IDE 设置，找到 File and Code Templates
+2. 在 includes 下, 编辑 PHP File Header 为你喜欢的样式. 保存更改
+3. 在当前目录创建一个文件. Alt+Insert (Command+N) 在当前目录下生成一个 PHP 类
+   这个文件的头将会反映出我们做的更改
+4. 为 Smarty 页面创建一个文件模版
 
 <?php
 #parse("PHP File Header.php")
@@ -17,4 +17,4 @@ require dirname(__FILE__) . '/../libs/Smarty.class.php';
 \$smarty->assign('title', '${Title}', true);
 \$smarty->display('${TemplateName}.tpl');
 
-5. Test the new file template. Note that the variables defined in the template can be provided through the New File dialog.
+5. 测试新的文件模版. 注意定义的变量会自动通过新文件对话框里输入提供
