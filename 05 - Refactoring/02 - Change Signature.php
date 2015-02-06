@@ -1,14 +1,14 @@
 <?php
 /**
- * Change signature
+ * 修改函数签名，因为对下面第3步和第5,6步觉得有点相同分不清，所以暂时没有翻译
  *
- * You can use this refactoring to:
- *  - Change the function name.
- *  - Add new parameters and remove the existing ones.
- *  - Assign default values to the parameters.
- *  - Reorder parameters.
- *  - Change parameter names.
- *  - Propagate new parameters through the function call hierarchy.
+ * 你可以使用该重构做以下事情：
+ *  - 改变函数的名字.
+ *  - 添加或删除参数.
+ *  - 为参数赋值默认值.
+ *  - 给参数排序.
+ *  - 改变参数的名字.
+ *  - 为调用的地方指定传新的参数.
  *
  * Ctrl+F6 (Windows/Linux)
  * Command+F6 (Mac OS X)
@@ -16,12 +16,12 @@
 
 namespace Refactoring2\JetBrains;
 
-// 1. Change the function name to "add" using the Change Signature refactoring.
+// 1. 使用 修改函数签名(Change Signature) 修改函数名为 "add"
 function addTwoNumbers($a, $b) {
     return $a + $b;
 }
 
-// 2. Note that the affected code is updated as well.
+// 2. 注意下面的有影响的代码已被更新
 $four = addTwoNumbers(2, 2);
 
 // 3. Change the function signature: rename the $name parameter to $firstName add a $lastName parameter.

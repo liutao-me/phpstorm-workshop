@@ -1,10 +1,10 @@
 <?php
 /**
- * Extract Interface
+ * 提取接口
  *
- * Extract an interface from a class.
+ * 从一个类里提取接口
  *
- * Use the menu or Refactor This.
+ * 使用菜单或者 "Refactor This" Popup菜单.
  */
 
 namespace Refactoring6\JetBrains;
