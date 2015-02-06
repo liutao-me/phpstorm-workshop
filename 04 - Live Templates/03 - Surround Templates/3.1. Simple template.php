@@ -1,8 +1,8 @@
 <?php
 /**
- * Creating Live Templates - Surround template
+ * 创建代码活动模板 - 包围模版
  *
- * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variabel is defined.
+ * 使用模版包围代码。包围模版与普通模版不同的地方就是定义了 $SELECTION$ 变量
  *
  * Ctrl+Alt+T or Ctrl+Alt+J (Windows/Linux)
  * Alt+Command+T or Alt+Command+J (Mac OS X)
@@ -11,10 +11,9 @@
 namespace LiveTemplates3\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
-   Name the live template "trycatch".
+1. 打开 IDE 设置 | Live Templates 并添加一个新的模板名为 "trycatch"
 
-   Set the template text to:
+   设置模板的文本为：
 
 try {
     $SELECTION$
@@ -22,15 +21,15 @@ try {
     $END$
 }
 
-   Set the context for the live template to be available in PHP.
-   Reformat according to style should be enabled.
+   设置执行环境为 PHP。
+   启用 Reformat according to style （根据风格格式化代码）
 
-   In the variables dialog, reorder the variables so TYPE is first. Set its expression to complete().
-   Default value for VARIABLENAME can be set to "exception" (including quotes).
+   在编辑变量对话框，将 TYPE 排到第一个。设置表达式为 complete()。
+   为 VARIABLENAME 设置默认值为 "exception" (包含引号)
 
-   Save the live template.
+   保存该模板
 
-2. Test the newly created live template. Select the line of code below and hit the keyboard shortcut.
+2. 测试我们新创建的模板。选择下面这行代码并按下快捷键
 */
 
 echo "This will throw an exception";
