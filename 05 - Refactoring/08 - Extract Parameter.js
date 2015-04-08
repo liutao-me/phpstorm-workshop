@@ -1,7 +1,7 @@
 /**
- * Extract Parameter
+ * 提取参数
  *
- * Add a new parameter to a function declaration. Determine the default. Can generate JSDoc.
+ * 添加一个新的参数到函数的定义。确定默认。能生成JSDoc。
  *
  * Ctrl+Alt+P (Windows/Linux)
  * Alt+Command+P (Mac OS X)
@@ -12,11 +12,11 @@
         var _name = name;
 
         this.greet = function () {
-            // 1. Extract the 'Hello' string into a parameter called "greeting".
-            //    Note that we can select which parent function it should be added to.
-            //    Add it to the greet() function.
-            //    Generate JSDoc comments.
-            //    Make it optional, the IDE will provide 'Hello' as the default value.
+            // 1. 提取'Hello'字符串到一个叫做"greeting"的参数里。
+            //    注意我们可以选择添加到哪一个父函数。
+            //    添加到 greet()函数。
+            //    勾选“Generator JSDoc”生成JSDoc注释。
+            //    勾选“Optional Parameter”，IDE将会提供'Hello'作为默认值。
             return 'Hello' + ', ' + _name;
         }
     }
