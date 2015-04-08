@@ -1,6 +1,6 @@
 <?php
 /**
- * 修改函数签名，因为对下面第3步和第5,6步觉得有点相同分不清，所以暂时没有翻译
+ * 修改函数签名(Change Signature)，因为对下面第3步和第5,6步觉得有点相同分不清，所以暂时没有翻译
  *
  * 你可以使用该重构做以下事情：
  *  - 改变函数的名字.
@@ -24,14 +24,14 @@ function addTwoNumbers($a, $b) {
 // 2. 注意下面的有影响的代码已被更新
 $four = addTwoNumbers(2, 2);
 
-// 3. Change the function signature: rename the $name parameter to $firstName add a $lastName parameter.
-//    Specify a default value for the $lastName variable, we want our code to compile.
-//    E.g. use '' to set an empty string everywhere sayHello is called.
+// 3. 修改函数的签名：重命名$name参数为$firstName并添加$lastName参数。
+//    给$lastName变量指定一个默认值，我们要让我们的代码能够通过变异。
+//    例如使用 '' 来给sayHello的任何调用该参数的地方设置为空字符串。
 //
-//    We can also propagate parameters. The usingSayHello() below uses $name as well, we may want to propagate
-//    the new $lastName variable. Do this from the refactor window's toolbar on the right.
+//    我们也能传递参数。下面得usingSayHello()使用$name没有问题。但是我们想让它也传递一个$lastName的参数。可以在重构窗口右边的工具栏上
+//    点击传递图标来实现。
 //
-//    Preview the refactoring and apply it when satisfied.
+//    预览重构并在满意后应用该重构。
 function sayHello($name) {
     // 4. Uncomment the following line:
     // $name = $firstName . ' ' . $lastName;
@@ -41,12 +41,11 @@ sayHello('Maarten');
 
 
 class UsingSayHelloClass {
-    // 5. After the previous refactoring, reorder the $firstName and $lastName parameters using Change Signature.
-    // 6. Change Signature and specify a default value for the $firstName variable, e.g. ''.
-    //    Important: Do not put this in the Default Value column: that column is used to update all calls to the function.
-    //               Instead, rename $firstName to $firstName = ''.
+    // 5. 待上面的重构完成后，使用Change Signature功能重新排序$firstName和$lastName参数。
+    // 6. 修改签名为$firstName变量指定一个默认值，比如''。
+    //    注意：不要在Default Value那一列添加''，那一列是指定更新调用处的默认值。相反，在第一列填入完整的 $firstName = ''。
     //
-    //    Preview the refactoring and apply it when satisfied.
+    //    先预览，满意后再应用。
     public static function usingSayHello($name) {
         sayHello($name);
     }
